@@ -1,0 +1,22 @@
+
+body{
+    background-color: salmon;
+    
+}
+
+#title-container{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#blog-container{
+    border: 2px solid white;
+    margin: 5% auto;
+    width: 90%;
+}
+
+.blog-content{
+    background-color: white;
+    border: 1px solid black;
+}
+
