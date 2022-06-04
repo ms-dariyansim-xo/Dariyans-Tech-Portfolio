@@ -1,0 +1,19 @@
+body{
+    background-color: darkgreen
+}
+
+#header{
+    background-color: palegoldenrod;
+    height: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main-body{
+    background-color: white;
+    border: 3px solid white;
+    height: 670px;
+    width: 80%;
+    margin: 20px auto;
+}
+
