@@ -1,8 +1,15 @@
 body{
     background-color: rgb(179, 60, 101)
+    
+}
+h2{
+    background-color: palegoldenrod;
+    text-align: center;
+    border-radius: 5px;;
 }
 
 #header{
+    
     display: grid;
     grid-template-columns: auto auto;
     background-color: palegoldenrod;
@@ -14,11 +21,15 @@ body{
 }
 
 #header-content{
+    
     margin: 20px;
     border: 1px solid black;
 }
 
 #main-body{
+    background-image: url(/images/dice.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: white;
     border-radius: 5px;
     height: 350px;
@@ -28,12 +39,13 @@ body{
 
 #main-container{
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 70% 30%;
     background-color:teal;
-    height: 600px;
+    height: 450px;
     width: 90%;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 5px;
 }
 
 #game-container{
