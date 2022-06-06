@@ -44,15 +44,19 @@ h2{
     height: 450px;
     width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
+    
 }
 
 #game-container{
     background-color: white;
-    border: 3px solid rgb(179, 60, 101);
+    border: 1px solid black;
     width: 95%;
     margin: 0 auto;
+    box-shadow: 10px 10px 5px black;
+    margin-left: 0px;
+    
 }
 
 #button-section{
@@ -64,4 +68,6 @@ h2{
     border: 1px solid black;
     margin-top: 50px;
     height: 80px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
 }
