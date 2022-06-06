@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
+html{
+    cursor:crosshair;
+    
+}
+
 body{
     background-color: rgb(179, 60, 101);
     font-family: 'Fredericka the Great', cursive;
     
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -26,9 +36,10 @@ h2{
 }
 
 #header-content{
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px;
-    border: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #main-body{
@@ -92,16 +103,17 @@ h2{
     grid-template-columns: auto auto;
     background-color: rgb(179, 60, 101);
     margin: 30px;
+    border-radius: 5px;
     
 }
 
 .play-content{
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
     margin: 10px;
     height: 200px;
     padding: 20px;
-    box-shadow: 5px 5px 25px white;
+    
 }
 
 .message{
