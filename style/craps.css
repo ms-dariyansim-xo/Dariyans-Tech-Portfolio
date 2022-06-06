@@ -86,3 +86,17 @@ h2{
     border: 1px solid black;
     width: 50%;    
 }
+
+#play{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(179, 60, 101);
+    margin: 10px;
+}
+
+.play-content{
+    border-left: 1px solid white;
+    margin: 15px;
+    height: 200px;
+    box-shadow: 5px 5px 25px white;
+}
