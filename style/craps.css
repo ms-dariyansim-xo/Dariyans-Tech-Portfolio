@@ -20,7 +20,7 @@ h2{
     background-color: palegoldenrod;
     height: 250px;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -61,13 +61,13 @@ h2{
     margin: 0 auto;
     box-shadow: 10px 10px 5px black;
     margin-left: 0px;
-    
+    border-radius: 5px;
 }
 
 #button-section{
-    background-color:palegoldenrod;
     border-radius: 10px;
 }
+
 .button-area1{
     text-align: center;
     background-color: white;
@@ -76,5 +76,13 @@ h2{
     height: 80px;
     border-radius: 15px;
     box-shadow: 5px 10px 5px black;
-    
+}
+
+.game-content{
+    margin: 10px auto;
+    padding: 10px;
+    height: 20%;
+    background-color:palegoldenrod;
+    border: 1px solid black;
+    width: 50%;    
 }
