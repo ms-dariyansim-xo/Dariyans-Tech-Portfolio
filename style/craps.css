@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 body{
-    background-color: rgb(179, 60, 101)
+    background-color: rgb(179, 60, 101);
+    font-family: 'Fredericka the Great', cursive;
     
 }
+
 h2{
     background-color: palegoldenrod;
     text-align: center;
@@ -71,4 +75,5 @@ h2{
     height: 80px;
     border-radius: 15px;
     box-shadow: 10px 10px 5px black;
+    
 }
