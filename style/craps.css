@@ -5,7 +5,8 @@ body{
 h2{
     background-color: palegoldenrod;
     text-align: center;
-    border-radius: 5px;;
+    border-radius: 5px;
+    text-shadow: 10px 5px 5px rgb(179, 60, 101);
 }
 
 #header{
@@ -21,7 +22,7 @@ h2{
 }
 
 #header-content{
-    
+    border-radius: 5px;
     margin: 20px;
     border: 1px solid black;
 }
