@@ -107,13 +107,6 @@ h2{
     width: 50%;  
 }
 
-
-img:hover{
-    float: right;
-    transition: linear;
-}
-
-
 #play{
     display: grid;
     grid-template-columns: auto auto;
