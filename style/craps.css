@@ -13,7 +13,10 @@ body{
 
 a{
     text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
+    
+}
+a:visited{
+    color: teal;
 }
 
 h2{
@@ -21,6 +24,18 @@ h2{
     text-align: center;
     border-radius: 5px;
     text-shadow: 10px 5px 5px rgb(179, 60, 101);
+}
+
+#navigation{
+    border: 1px solid white;
+}
+.nav-functions{
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white;
 }
 
 #header{
@@ -96,8 +111,15 @@ h2{
     height: 20%;
     background-color:palegoldenrod;
     border: 1px solid black;
-    width: 50%;    
+    width: 50%;  
 }
+
+
+img:hover{
+    float: right;
+    transition: linear;
+}
+
 
 #play{
     display: grid;
@@ -105,8 +127,10 @@ h2{
     margin: 20px;
     border-radius: 5px;
     background-color: rgb(179, 60, 101);
+    height: 200px;
     
 }
+
 
 .play-content{
     border-left: 2px solid white;
@@ -115,7 +139,9 @@ h2{
     height: 150px;
     padding: 5px;
     box-shadow: 1px 15px 15px palegoldenrod;
+    
 }
+
 
 .message{
     text-align: center;
