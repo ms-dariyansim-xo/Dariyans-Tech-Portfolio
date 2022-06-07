@@ -29,3 +29,18 @@ body{
     margin-bottom: 10px;
 }
 
+#navigation{
+    border: 1px solid white;
+}
+.nav-functions{
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+}
+a{
+    text-decoration: none;
+    color: salmon;
+}

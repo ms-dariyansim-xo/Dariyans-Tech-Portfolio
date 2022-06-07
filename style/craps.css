@@ -13,10 +13,8 @@ body{
 
 a{
     text-decoration: none;
+    color:rgb(179, 60, 101);
     
-}
-a:visited{
-    color: teal;
 }
 
 h2{
