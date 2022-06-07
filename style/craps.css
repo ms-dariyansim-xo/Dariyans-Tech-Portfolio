@@ -21,6 +21,7 @@ h2{
 
 #navigation{
     border: 1px solid white;
+    
 }
 .nav-functions{
     padding: 5px;
@@ -83,7 +84,6 @@ h2{
     background-color: white;
     border: 1px solid black;
     width: 95%;
-    margin: 0 auto;
     box-shadow: 10px 10px 5px black;
     border-radius: 5px;
     
