@@ -30,6 +30,10 @@ h2{
     grid-template-columns: auto auto auto;
     background-color:white;
 }
+.nav-functions:hover{
+    background-color: teal;
+    transition: 2s ease-in-out;
+}
 
 #header{
     
@@ -86,12 +90,12 @@ h2{
 }
 
 
-
 .button-area1{
     text-align: center;
     background-color: white;
     border: 1px solid black;
     margin-top: 30px;
+    margin-left: 20px;
     height: 80px;
     width: 200px;
     border-radius: 15px;

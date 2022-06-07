@@ -12,6 +12,9 @@ body{
     margin-top: 30px;
     text-align: center;
 }
+h3{
+    background-color: teal;
+}
 
 #blog-container{
     width: 500px;
@@ -38,7 +41,11 @@ body{
     margin: 3px;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color:white;
+    background-color: teal;
+}
+.nav-functions:hover{
+    background-color: white;
+    transition: 2s ease-in-out;
 }
 a{
     text-decoration: none;
