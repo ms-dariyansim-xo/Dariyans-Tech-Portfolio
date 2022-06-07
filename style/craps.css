@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-html{
-    cursor: pointer;
-    
-}
-
 body{
     background-color: rgb(179, 60, 101);
     font-family: 'Fredericka the Great', cursive;
-    
+    cursor: grab;
 }
 
 a{

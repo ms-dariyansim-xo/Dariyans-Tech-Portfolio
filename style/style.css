@@ -2,7 +2,7 @@
 body{
     background-color: lightseagreen;
     font-family: 'Spectral SC', serif;
-
+    cursor: grab;
 }
 
 #title-container{
