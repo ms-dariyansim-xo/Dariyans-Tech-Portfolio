@@ -56,7 +56,7 @@ h2{
 }
 
 #main-body{
-    background-image: url('/images/dice.gif');
+    background-image: url("/images/dice.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
