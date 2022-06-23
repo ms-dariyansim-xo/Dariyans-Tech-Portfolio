@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+
+body{
+    font-family: 'Kosugi Maru', sans-serif;  
+    background-color: black;
+    background-image:url(../portimages/conflicted.gif);
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+#main-container{
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    height: 300px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+#article-container{
+    background-color: black;
+    width: 95%;
+    margin: 0 auto;
+}
+.article{
+    display: grid;
+    grid-template-columns: repeat(3 auto);
+}
